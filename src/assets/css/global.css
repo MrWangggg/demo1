@@ -1,0 +1,9 @@
+/*CSS初始化*/
+html,body,#app{width: 100%;height: 100%;}
+html,body,div,ul,li,h1,h2,h3,h4,h5,h6,input,span{margin:0;padding:0}
+body{font:12px/150% "宋体",arial;color:#3c3c3c;}/*设置body体内部的默认字体及行高*/
+h1,h2,h3,h4,h5,h6{font-size:100%;}/*让所有的标题字体和body字体相同*/
+img{boder:0;display:block;}/*清除图片底侧空隙,并设置为块元素*/
+ul,ol{list-style:none}/*清除列表默认的圆点*/
+a{text-decoration:none;color:#fff;}/*除去连接默认的下划线,并设置默认字体颜色*/
+.clearfix{zoom:1};/*用于给IE6清除浮动*/
